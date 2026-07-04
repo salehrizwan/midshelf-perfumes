@@ -1,0 +1,6 @@
+{
+  "name": "Midshelf Perfumes",
+  "description": "Premium, elegant, and fully responsive one-page boutique website for luxury designer and niche perfumes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
