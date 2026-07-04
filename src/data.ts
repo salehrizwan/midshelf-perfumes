@@ -1,8 +1,13 @@
 import { Perfume, Feature, Benefit, Testimonial } from './types';
 
-// Asset paths (from generated high-quality assets)
-export const BRAND_LOGO = '/src/assets/images/midshelf_logo_1783157189647.jpg';
-export const HERO_BG = '/src/assets/images/hero_perfume_bg_1783157207800.jpg';
+import logo from './assets/images/midshelf_logo_1783157189647.jpg';
+import heroBg from './assets/images/hero_perfume_bg_1783157207800.jpg';
+import elixir from './assets/images/elixir.png';
+import ysl from './assets/images/ysl.png';
+import ysl2 from './assets/images/ysl.2.png';
+
+export const BRAND_LOGO = logo;
+export const HERO_BG = heroBg;
 
 export const PERFUMES: Perfume[] = [
   {
@@ -12,7 +17,7 @@ export const PERFUMES: Perfume[] = [
     description: 'A sophisticated combination of dry woods, rich amber, and fresh citrus. Formulated for the modern individual who carries herself/himself with effortless grace and unwavering confidence. Perfect for transitioning from daytime elegance to nocturnal allure.',
     price: '$120.00',
     volume: '100ml / 3.4 fl. oz.',
-    image: '/src/assets/images/elixir.png',
+   image: elixir,
     type: 'Eau de Parfum (EDP)',
     topNotes: ['Bergamot', 'Grapefruit', 'Pink Pepper'],
     heartNotes: ['Cedarwood', 'Patchouli', 'Vetyver'],
@@ -27,7 +32,7 @@ export const PERFUMES: Perfume[] = [
     description: 'An ethereal journey through a morning blooming garden. Crisp white florals intertwined with sweet, dewy rose petals and a touch of powdery musk. Designed for the elegant romantic who appreciates fine craftsmanship and timeless style.',
     price: '$115.00',
     volume: '100ml / 3.4 fl. oz.',
-    image: '/src/assets/images/ysl.png',
+   image: ysl,
     type: 'Eau de Parfum (EDP)',
     topNotes: ['Dewy Pear', 'Mandarin', 'Neroli'],
     heartNotes: ['Damask Rose', 'Jasmine Sambac', 'Peony'],
@@ -42,7 +47,7 @@ export const PERFUMES: Perfume[] = [
     description: 'A majestic blend of rich Cambodian Oud, warm spices, and exotic resins. Deep, mysterious, and incredibly powerful, Royal Oud pays homage to traditional Middle Eastern high perfumery with a modern European finish.',
     price: '$145.00',
     volume: '100ml / 3.4 fl. oz.',
-    image: '/src/assets/images/ysl.2.png',
+  image: ysl2,
     type: 'Extraits de Parfum',
     topNotes: ['Saffron', 'Nutmeg', 'Cardamom'],
     heartNotes: ['Cambodian Oud', 'Frankincense', 'Myrrh'],
